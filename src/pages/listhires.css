@@ -1,0 +1,10 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button-container-t {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+}

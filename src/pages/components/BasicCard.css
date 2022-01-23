@@ -1,0 +1,71 @@
+.card-container {
+  width: 30vw;
+  height: 25vh;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 2px white);
+  position: relative;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(233, 230, 230, 1) 100%
+  );
+}
+.card-container:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(2, 0, 0, 0.5);
+}
+.card-container:hover > * {
+  font-size: larger;
+}
+.hire-body {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.hire-type {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-size: 12px;
+}
+.hire-jobdate {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 12px;
+}
+.hire-jobnom {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.hire-jobprice {
+  position: absolute;
+  bottom: 0;
+}
+.hire-jobdesc {
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: blacks;
+  font-weight: 200;
+  height: 6.2em;
+  font-size: 14px;
+  -webkit-line-clamp: 3;
+}
+.hire-jobdesc:after {
+  content: "...";
+}
+
+.hire-empnom {
+  font-size: 14px;
+}
+.hire-jobregion {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  font-size: 12px;
+}

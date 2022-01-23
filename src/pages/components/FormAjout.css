@@ -1,0 +1,33 @@
+.formAjout-container,
+.formAjoutjob-container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(218, 213, 213);
+  display: flex;
+  flex-direction: column;
+  padding: 4vh;
+  width: 50vw;
+  height: 80vh;
+  margin: 10vh;
+  align-items: center;
+}
+.formAjoutjob-container {
+  height: 60vh;
+}
+#outlined-basic {
+  width: 20vw;
+}
+.formAjout-input {
+  margin: 3px 0;
+}
+#button-submit {
+  margin: 20px 0;
+}
+.add-container {
+  display: grid;
+  place-items: center;
+}
+.addjob-container {
+  display: grid;
+  place-items: center;
+}
